@@ -1,0 +1,327 @@
+#root {
+  margin: 0;
+  text-align: center;
+  font-size: large;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+.head {
+  display: grid;
+  grid-template-rows: auto;
+}
+
+.homeTitleTopLine {
+  display: grid;
+  grid-template-columns: .5fr 1fr .5fr;
+  align-items: center;
+}
+
+.navbar {
+  display: grid;
+  justify-content: start;
+  padding-left: 5rem;
+  background-color: black;
+}
+
+.homeNav {
+  display: grid;
+  grid-template-columns: 0.65fr 1fr;
+  font-size: larger;
+  color: white;
+}
+
+.homeNavDiv {
+  display: grid;
+}
+
+.backArrow {
+  font-size: 2rem;
+}
+
+.backText {
+  color: #C89210;
+  font-size: 1em;
+  font-weight: 600;
+  min-width: 56px;
+  border-left: #C89210 solid 3px;
+  padding-left: 0.5rem;
+}
+
+.cfpHomeButton {
+  height: 2rem;
+}
+
+.homeTitleContainer {
+  background-color: black;
+  display: grid;
+  align-items: center;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  width: 100%;
+}
+
+.homeNavTitle {
+  margin: 0;
+  font-size: 2.5em;
+  font-weight: 600;
+}
+
+.bodyContainer {
+  width: 100%;
+  padding: 2rem;
+}
+
+.bodyTopContainer {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+
+}
+
+.belowRankingsContainer {
+  display: grid;
+  margin: 2rem;
+  margin-top: 0;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  background-color: black;
+  border-radius: 15px;
+}
+
+.bottomContainer {
+  display: grid;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 3rem;
+  width: 100%;
+  overflow-x: scroll;
+}
+
+.centerConnectWalletDiv {
+  display: grid;
+  width: 100%;
+  justify-items: center;
+  justify-content: center;
+}
+
+.bodyLeftContainer, .bodyRightContainer {
+  display: grid;
+  border: 3px solid #C89210;
+  border-radius: 25px;
+  width: 98%;
+  min-width: 540px;
+  min-height: 500px;
+  grid-template-rows: 5rem 25rem;
+  align-items: center;
+}
+
+.bodyLeftContainer {
+  justify-self: start;
+}
+
+.bodyRightContainer {
+  justify-self: end;
+}
+
+.connectWalletDiv, .alertTextContainer {
+  display: grid;
+  border: 3px solid #C89210;
+  border-radius: 25px;
+  width: 98%;
+  min-width: 540px;
+  min-height: 500px;
+  align-items: center;
+}
+
+.connectWalletDivRight {
+  justify-self: end;
+}
+
+.entrantSelectionsDiv {
+  display: grid;
+  height: 100%;
+  align-items: center;
+  justify-self: center;
+  font-size: 1em;
+}
+
+.entrantSelectionsDivWithButton {
+  grid-template-rows: 4fr 5rem;
+  font-size: 1em;
+}
+
+.entrantSelectionsSpacing {
+  display: grid;
+  align-self: baseline;
+  row-gap: 0.25rem;
+  padding-top: 0.5rem;
+}
+
+
+.homeDeployContainer {
+  grid-template-rows: 1fr 5fr;
+  justify-items: center;
+  align-items: center;
+  min-height: 400px;
+}
+
+.homeJoinContainer,
+.homeDeployContainer {
+  grid-template-rows: 1fr 5fr;
+  grid-template-areas:
+    "input"
+    "buttonsContainer";
+}
+
+.addressInputContainer {
+  grid-area: input;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+
+.addressInput {
+  width: 95%;
+  height: 40px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 1em;
+}
+
+.interactButtonsContainer {
+  grid-area: buttonsContainer;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  row-gap: 2rem;
+  padding-bottom: 1rem;
+}
+
+.buttonContainer {
+  display: grid;
+  padding-bottom: 1px;
+  height: 55px;
+  align-items: center;
+  justify-content: center;
+  font-size: .9em;
+}
+
+.homeDeployButton,
+.homeInteractButton,
+.connectWalletButton {
+  width: 150px;
+  height: 40px;
+  padding: 0;
+  font-size: 1em;
+}
+
+.poolCategoryDiv,
+.entrantCategoryDiv,
+.selectionsCategoryDiv {
+  display: grid;
+  grid-template-columns: 25% 75%;
+  grid-template-areas: "label value";
+  width: 95%;
+  min-width: 510px;
+}
+
+.poolLabel,
+.entrantLabel {
+  grid-area: label;
+  align-self: end;
+  align-items: center;
+  text-align: end;
+  font-weight: bold;
+  margin-right: 10px;
+  min-width: 125px;
+}
+
+.poolValue,
+.entrantValue {
+  grid-area: value;
+  align-self: end;
+  text-align: left;
+  align-items: center;
+}
+
+.poolLabel,
+.poolValue,
+.entrantLabel,
+.entrantValue {
+  display: block;
+}
+
+.divGrid {
+  display: grid;
+  justify-items: start;
+  text-align: left;
+  justify-content: start;
+}
+
+.shortValue {
+  display: grid;
+  align-self: self-start;
+}
+
+.poolValue,
+.entrantValue,
+.teamMascot, td {
+  white-space: nowrap;
+  /* overflow: hidden;
+  text-overflow: ellipsis; */
+  overflow: scroll;
+}
+
+.standingsContainer {
+  display: grid;
+  align-items: center;
+  align-content: center;
+  background-color: black;
+  width: 100%;
+  overflow-x: auto;
+}
+
+table {
+  border: 2px solid #C89210;
+  border-radius: 25px;
+  border-spacing: 0 1rem;
+  padding-right: 1rem;
+  min-width: 1150px;
+}
+
+thead {
+  color: #C89210;
+}
+
+.bottomInstructions {
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.errorInstructions {
+  color: #ba0c2f;
+
+}
+
+.errorText {
+  color: #ba0c2f;
+}
+
+.alertText {
+  
+}
+
+.successInstructions {
+  color: green;
+}
+
+.successText {
+  color: green;
+}
+
+.bracketWinner {
+  color: green;
+}

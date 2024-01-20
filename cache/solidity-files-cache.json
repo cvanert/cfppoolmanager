@@ -1,0 +1,196 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/courtney/Documents/Coding/Alchemy University/Ethereum Developer Bootcamp/Week 8 - Final Project/cfp/node_modules/@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol": {
+      "lastModificationDate": 1704302758104,
+      "contentHash": "f0cedd674b4863ee90d1521a92ab82df",
+      "sourceName": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "Initializable"
+      ]
+    },
+    "/Users/courtney/Documents/Coding/Alchemy University/Ethereum Developer Bootcamp/Week 8 - Final Project/cfp/contracts/PlayoffPoolV2.sol": {
+      "lastModificationDate": 1704302751028,
+      "contentHash": "dc2c6034a05a9a47803324ab4354fc57",
+      "sourceName": "contracts/PlayoffPoolV2.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol"
+      ],
+      "versionPragmas": [
+        "0.8.20"
+      ],
+      "artifacts": [
+        "PlayoffPoolV2"
+      ]
+    },
+    "/Users/courtney/Documents/Coding/Alchemy University/Ethereum Developer Bootcamp/Week 8 - Final Project/cfp/contracts/PlayoffPoolV1.sol": {
+      "lastModificationDate": 1704302751028,
+      "contentHash": "2bf57cfc815f9fc59120237adf13eb20",
+      "sourceName": "contracts/PlayoffPoolV1.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol"
+      ],
+      "versionPragmas": [
+        "0.8.20"
+      ],
+      "artifacts": [
+        "PlayoffPoolV1"
+      ]
+    },
+    "/Users/courtney/Documents/Coding/Alchemy University/Ethereum Developer Bootcamp/Week 8 - Final Project/cfp/contracts/PlayoffPoolV0.sol": {
+      "lastModificationDate": 1704302751028,
+      "contentHash": "2924b04ae668403fe45737a44ddb59f8",
+      "sourceName": "contracts/PlayoffPoolV0.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol"
+      ],
+      "versionPragmas": [
+        "0.8.20"
+      ],
+      "artifacts": [
+        "PlayoffPoolV0"
+      ]
+    },
+    "/Users/courtney/Documents/Coding/Alchemy University/Ethereum Developer Bootcamp/Week 8 - Final Project/cfp/contracts/PlayoffPool.sol": {
+      "lastModificationDate": 1705594333752,
+      "contentHash": "6291ca10b968f11f180dce6cf4ff9c18",
+      "sourceName": "contracts/PlayoffPool.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.20"
+      ],
+      "artifacts": [
+        "PlayoffPool"
+      ]
+    }
+  }
+}

@@ -1,0 +1,321 @@
+/* Bracket.css */
+.homeCFPTeamsContainer {
+    background-color: black;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-radius: 15px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+}
+
+.cfpTeamsContainer {
+    background-color: black;
+    display: grid;
+    align-items: center;
+    width: 100%;
+    overflow-x: scroll;
+}
+
+/* Style the top container */
+.bracketTitle {
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.bracket {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    min-width: 100%;
+}
+
+.semifinals {
+    display: grid;
+}
+
+.semifinalsLeft {
+    grid-template-columns: 2fr 0.25fr;
+}
+
+.semifinalsRight {
+    grid-template-columns: 0.25fr 2fr;
+}
+
+.semisTopTeam,
+.semisBottomTeam {
+    display: grid;
+    justify-items: stretch;
+    align-items: stretch;
+}
+
+.bracketLineDivLeft,
+.bracketLineDivRight {
+    display: grid;
+    grid-template-rows: 1fr 2fr 1fr;
+    grid-template-areas:
+        "."
+        "line"
+        ".";
+    min-width: 25px;
+}
+
+.bracketLineLeft {
+    grid-area: line;
+    border-top: 4px solid #C89210;
+    border-bottom: 4px solid #C89210;
+    border-right: 4px solid #C89210;
+}
+
+.bracketLineRight {
+    grid-area: line;
+    border-top: 4px solid #C89210;
+    border-bottom: 4px solid #C89210;
+    border-left: 4px solid #C89210;
+}
+
+.finalsDiv {
+    display: grid;
+    grid-template-columns: minmax(110px, 60%) minmax(140px, 60%) minmax(110px, 60%);
+    grid-template-areas:
+        "finalsLeft . finalsRight";
+}
+
+.finalsLineLeftDiv {
+    grid-area: finalsLeft;
+    display: grid;
+    grid-template-rows: 1fr 2fr 1fr;
+    grid-template-areas:
+        "."
+        "finalsLineContainer"
+        ".";
+}
+
+.finalsLineRighttDiv {
+    grid-area: finalsRight;
+    display: grid;
+    grid-template-rows: 1fr 2fr 1fr;
+    grid-template-areas:
+        "."
+        "finalsLineContainer"
+        ".";
+}
+
+.finalsLineContainer {
+    grid-area: finalsLineContainer;
+    display: grid;
+    grid-template-rows: 3fr 1fr;
+    grid-template-areas:
+        "finalsTop"
+        "finalsBottom";
+}
+
+.semiWinnerButton {
+    border: none;
+    display: grid;
+    align-items: end;
+    padding: 0;
+    background-color: black;
+}
+
+.finalsLineTop {
+    grid-area: finalsTop;
+    display: grid;
+    align-content: start;
+}
+
+.finalsLineBottom {
+    grid-area: finalsBottom;
+    border-top: 4px solid #C89210;
+}
+
+.finalsCenterDiv {
+    display: grid;
+    grid-template-rows: 3fr 1fr 2fr;
+    grid-template-areas:
+        "cfpLogo"
+        "finalScore"
+        "champ";
+}
+
+.finalsWinnerDiv {
+    grid-area: champ;
+    display: grid;
+    width: 100%;
+    align-content: end;
+    justify-content: center;
+}
+
+.finalsWinnerImgDiv {
+    grid-area: finalsTop;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    border-bottom: 4px solid #C89210;
+    /* border-radius: 100%; */
+    /* padding: 10px; */
+}
+
+.finalsScoreDiv {
+    grid-area: finalScore;
+    display: grid;
+    grid-template-rows: 1 3;
+    grid-template-areas:
+        "scoreTitle"
+        "scoreInput";
+}
+
+.finalsScoreTitle {
+    grid-area: scoreTitle;
+    display: grid;
+    align-self: end;
+    margin: 0;
+}
+
+.finalsScoreInputDiv {
+    grid-area: scoreInput;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "scoreLeft scoreRight";
+    align-items: center;
+    justify-content: center;
+}
+
+.nattyScoreDiv {
+    grid-area: scoreInput;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "nattyLeft nattyDivider nattyRight";
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nattyScoreLeft {
+    grid-area: nattyLeft;
+}
+
+.nattyScoreDivider {
+    grid-area: nattyDivider;
+}
+
+.nattyScoreRight {
+    grid-area: nattyRight;
+}
+
+.finalsScoreLeft {
+    grid-area: scoreLeft;
+    width: 50%;
+    display: grid;
+    justify-self: center;
+}
+
+.finalsScoreRight {
+    grid-area: scoreRight;
+    width: 50%;
+    display: grid;
+    justify-self: center;
+}
+
+.nattyScoreLeft,
+.nattyScoreDivider,
+.nattyScoreRight,
+.nattyScoreTitle {
+    color: #C89210;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.nattyScoreLeft {
+    justify-self: end;
+}
+
+.nattyScoreRight {
+    justify-self: start;
+}
+
+.finalsCFPLogoDiv {
+    grid-area: cfpLogo;
+    display: grid;
+    align-content: start;
+    justify-content: center;
+}
+
+.cfpLogoImg {
+    width: 100%;
+    margin-bottom: 3rem;
+}
+
+.finalsTeamLogo img {
+    width: 80%;
+}
+
+.teamCardButton {
+    padding: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: black;
+}
+
+.teamCard {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(100px, 1fr));
+    padding: 10px;
+    border: 2px solid #C89210;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: white;
+}
+
+.teamInfo {
+    display: grid;
+    text-align: center;
+    margin-right: 10px;
+    align-content: center;
+    line-height: 1.5;
+}
+
+.teamRank {
+    font-size: 1.5em;
+    font-weight: bolder;
+    line-height: 1;
+}
+
+.teamSchool {
+    font-weight: bold;
+    align-self: center;
+}
+
+.teamLogo {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+}
+
+.teamLogo img {
+    width: 80%;
+}
+
+.line {
+    width: 50px;
+    height: 3px;
+    background-color: #333;
+}
+
+.lineVertical {
+    height: 50px;
+}
+
+/* Style the finals container */
+.finals {
+    display: flex;
+    align-items: center;
+}
+
+/* .finals .round {
+    margin-right: 0;
+    // Remove margin for the last round
+} */

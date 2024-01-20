@@ -1,0 +1,1782 @@
+{
+  "manifestVersion": "3.2",
+  "admin": {
+    "address": "0xE534698c95a3736D9fD57b6B764D6C888f71EC71",
+    "txHash": "0x49c674582f3e8aa7d93fba6b44058a4583d254d1166be24ab4412d7acbad83b1"
+  },
+  "proxies": [
+    {
+      "address": "0x4D12f6C565132F508C26E751a6eb132bd37A85a3",
+      "txHash": "0x6aedfc6e10532f2330ab5183ac1091aed1c8804743878fa6ee23100731e76223",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x79f499443bF347E2BF7c082a364eC0D78C7bc624",
+      "txHash": "0x39fb668bccc80eb24cd8a93c0a3d62f15c7e7795643b9ebfadab5acf1abe2c73",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x1E7174d0ba9a277737a51F7153951442208c2b01",
+      "txHash": "0x08a1a935b63978da10b11b6432ae50d5a6a941c1dbcec57cfbf815f725f8bd16",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xf17f01747E3f588e482AC13838f40C464293C490",
+      "txHash": "0x3eabfb1725698bdba1f8d5fcceb8d7dbacb4b8f7839485209aa6952b4f256408",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x5B01F700F66a6Bd399237EF4058eC55c8b4CC1D9",
+      "txHash": "0x592c1d685f18bab5c54d486e947ef7f0522bebcf294987f52e1eb225b42929d1",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x1122373E4127Ae587ea284Ad98Ae3a110a16706D",
+      "txHash": "0xefd005533c3ebf7bc247044bb8652982c3a7740e1e0ee79edcd9c694d4af1b8e",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xCFAA73b06De2e92BffcA13434A93D43D8b03da79",
+      "txHash": "0x45d7c6c12a8f23fcfc9c395fbb7318094ba8e7bf0f3dacb2dc8a031114c222a8",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x3203A4922Da7b7457e0BD65Bd483E804cBdd64A3",
+      "txHash": "0xa3ec7a747533e6241ec195ee8457e9a132951b911ba5e1bdbbcb3680ec57fd06",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xCa68212413861DB0D2a0be16498331dd51af4143",
+      "txHash": "0x22f7c723beffce094bf3b975d8b65cead5d2f16388c8f5d9f4d74e7a6dc3969c",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x9c2787A66E53d1d6B9D232ff5d79d7a3d7e442D0",
+      "txHash": "0xb1f5e01fb642abe13de59596ee89c95a9edc15617a0dbda8dade0b90875c2354",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xa925A9B74aE7C95dC4Bd10a00b6731a90180d87a",
+      "txHash": "0x3c411ad274cfb2b8c346f39a28ed73fdfefae7bfb203ee24700238c1d4b80598",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x112Df1383F5654fB39963457840B317D8Ae4e27E",
+      "txHash": "0x74253d4552cecc1ec165e32e81435678ced9eee02b17b7f9602b54499e104da5",
+      "kind": "transparent"
+    }
+  ],
+  "impls": {
+    "e086f3137a7579c2b1678c1d94ca53bb00127a771b2b9d1fbbd587ca8f162258": {
+      "address": "0xD6e5e9fBf364A16F997543729A0ae42590f2Bebb",
+      "txHash": "0x5d103069b1f09b54f8f5479cdf3dce3f8f60f491b1fd27b7dd26ee9702631699",
+      "layout": {
+        "solcVersion": "0.8.20",
+        "storage": [
+          {
+            "label": "commissioner",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_address",
+            "contract": "PlayoffPoolV0",
+            "src": "contracts/PlayoffPoolV0.sol:16"
+          },
+          {
+            "label": "entryFee",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_uint256",
+            "contract": "PlayoffPoolV0",
+            "src": "contracts/PlayoffPoolV0.sol:17"
+          },
+          {
+            "label": "maxEntries",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_uint256",
+            "contract": "PlayoffPoolV0",
+            "src": "contracts/PlayoffPoolV0.sol:18"
+          },
+          {
+            "label": "one",
+            "offset": 0,
+            "slot": "3",
+            "type": "t_uint256",
+            "contract": "PlayoffPoolV0",
+            "src": "contracts/PlayoffPoolV0.sol:19"
+          },
+          {
+            "label": "two",
+            "offset": 0,
+            "slot": "4",
+            "type": "t_uint256",
+            "contract": "PlayoffPoolV0",
+            "src": "contracts/PlayoffPoolV0.sol:20"
+          },
+          {
+            "label": "three",
+            "offset": 0,
+            "slot": "5",
+            "type": "t_uint256",
+            "contract": "PlayoffPoolV0",
+            "src": "contracts/PlayoffPoolV0.sol:21"
+          },
+          {
+            "label": "four",
+            "offset": 0,
+            "slot": "6",
+            "type": "t_uint256",
+            "contract": "PlayoffPoolV0",
+            "src": "contracts/PlayoffPoolV0.sol:22"
+          },
+          {
+            "label": "semifinalOneWinner",
+            "offset": 0,
+            "slot": "7",
+            "type": "t_uint256",
+            "contract": "PlayoffPoolV0",
+            "src": "contracts/PlayoffPoolV0.sol:23"
+          },
+          {
+            "label": "semifinalTwoWinner",
+            "offset": 0,
+            "slot": "8",
+            "type": "t_uint256",
+            "contract": "PlayoffPoolV0",
+            "src": "contracts/PlayoffPoolV0.sol:24"
+          },
+          {
+            "label": "champion",
+            "offset": 0,
+            "slot": "9",
+            "type": "t_uint256",
+            "contract": "PlayoffPoolV0",
+            "src": "contracts/PlayoffPoolV0.sol:25"
+          },
+          {
+            "label": "championshipTotalPoints",
+            "offset": 0,
+            "slot": "10",
+            "type": "t_uint256",
+            "contract": "PlayoffPoolV0",
+            "src": "contracts/PlayoffPoolV0.sol:26"
+          },
+          {
+            "label": "mostPoints",
+            "offset": 0,
+            "slot": "11",
+            "type": "t_uint256",
+            "contract": "PlayoffPoolV0",
+            "src": "contracts/PlayoffPoolV0.sol:27"
+          },
+          {
+            "label": "totalEntries",
+            "offset": 0,
+            "slot": "12",
+            "type": "t_uint256",
+            "contract": "PlayoffPoolV0",
+            "src": "contracts/PlayoffPoolV0.sol:28"
+          },
+          {
+            "label": "pot",
+            "offset": 0,
+            "slot": "13",
+            "type": "t_uint256",
+            "contract": "PlayoffPoolV0",
+            "src": "contracts/PlayoffPoolV0.sol:29"
+          },
+          {
+            "label": "unlockTimestamp",
+            "offset": 0,
+            "slot": "14",
+            "type": "t_uint256",
+            "contract": "PlayoffPoolV0",
+            "src": "contracts/PlayoffPoolV0.sol:30"
+          },
+          {
+            "label": "lockTimestamp",
+            "offset": 0,
+            "slot": "15",
+            "type": "t_uint256",
+            "contract": "PlayoffPoolV0",
+            "src": "contracts/PlayoffPoolV0.sol:31"
+          },
+          {
+            "label": "semisComplete",
+            "offset": 0,
+            "slot": "16",
+            "type": "t_uint256",
+            "contract": "PlayoffPoolV0",
+            "src": "contracts/PlayoffPoolV0.sol:32"
+          },
+          {
+            "label": "champComplete",
+            "offset": 0,
+            "slot": "17",
+            "type": "t_uint256",
+            "contract": "PlayoffPoolV0",
+            "src": "contracts/PlayoffPoolV0.sol:33"
+          },
+          {
+            "label": "entrants",
+            "offset": 0,
+            "slot": "18",
+            "type": "t_array(t_address)dyn_storage",
+            "contract": "PlayoffPoolV0",
+            "src": "contracts/PlayoffPoolV0.sol:35"
+          },
+          {
+            "label": "entries",
+            "offset": 0,
+            "slot": "19",
+            "type": "t_mapping(t_address,t_uint256)",
+            "contract": "PlayoffPoolV0",
+            "src": "contracts/PlayoffPoolV0.sol:36"
+          },
+          {
+            "label": "brackets",
+            "offset": 0,
+            "slot": "20",
+            "type": "t_mapping(t_address,t_array(t_struct(Bracket)271_storage)dyn_storage)",
+            "contract": "PlayoffPoolV0",
+            "src": "contracts/PlayoffPoolV0.sol:38"
+          },
+          {
+            "label": "points",
+            "offset": 0,
+            "slot": "21",
+            "type": "t_mapping(t_uint256,t_array(t_address)dyn_storage)",
+            "contract": "PlayoffPoolV0",
+            "src": "contracts/PlayoffPoolV0.sol:40"
+          },
+          {
+            "label": "scoredBrackets",
+            "offset": 0,
+            "slot": "22",
+            "type": "t_mapping(t_uint256,t_array(t_struct(Bracket)271_storage)dyn_storage)",
+            "contract": "PlayoffPoolV0",
+            "src": "contracts/PlayoffPoolV0.sol:42"
+          },
+          {
+            "label": "differences",
+            "offset": 0,
+            "slot": "23",
+            "type": "t_mapping(t_uint256,t_array(t_address)dyn_storage)",
+            "contract": "PlayoffPoolV0",
+            "src": "contracts/PlayoffPoolV0.sol:43"
+          }
+        ],
+        "types": {
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_struct(InitializableStorage)10_storage": {
+            "label": "struct Initializable.InitializableStorage",
+            "members": [
+              {
+                "label": "_initialized",
+                "type": "t_uint64",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "_initializing",
+                "type": "t_bool",
+                "offset": 8,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "32"
+          },
+          "t_uint64": {
+            "label": "uint64",
+            "numberOfBytes": "8"
+          },
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_address)dyn_storage": {
+            "label": "address[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_struct(Bracket)271_storage)dyn_storage": {
+            "label": "struct PlayoffPoolV0.Bracket[]",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_array(t_struct(Bracket)271_storage)dyn_storage)": {
+            "label": "mapping(address => struct PlayoffPoolV0.Bracket[])",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_uint256,t_array(t_address)dyn_storage)": {
+            "label": "mapping(uint256 => address[])",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_uint256,t_array(t_struct(Bracket)271_storage)dyn_storage)": {
+            "label": "mapping(uint256 => struct PlayoffPoolV0.Bracket[])",
+            "numberOfBytes": "32"
+          },
+          "t_struct(Bracket)271_storage": {
+            "label": "struct PlayoffPoolV0.Bracket",
+            "members": [
+              {
+                "label": "owner",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "semifinalOneWinner",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "semifinalTwoWinner",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "champion",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "3"
+              },
+              {
+                "label": "championshipTotalPoints",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "4"
+              },
+              {
+                "label": "bracketPoints",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "5"
+              }
+            ],
+            "numberOfBytes": "192"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        },
+        "namespaces": {
+          "erc7201:openzeppelin.storage.Initializable": [
+            {
+              "contract": "Initializable",
+              "label": "_initialized",
+              "type": "t_uint64",
+              "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:69",
+              "offset": 0,
+              "slot": "0"
+            },
+            {
+              "contract": "Initializable",
+              "label": "_initializing",
+              "type": "t_bool",
+              "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:73",
+              "offset": 8,
+              "slot": "0"
+            }
+          ]
+        }
+      }
+    },
+    "211bdeee47121ac1aceecb212279a4a57b79bf8fa02a0595ada274b37aa2c8b3": {
+      "address": "0x614aac5b279735d172894522862B16D1fEa054E5",
+      "txHash": "0x5ab18b058d979250e86df19782de0077d627dae28e8d7e7575deff4accbf6720",
+      "layout": {
+        "solcVersion": "0.8.20",
+        "storage": [
+          {
+            "label": "commissioner",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_address",
+            "contract": "PlayoffPoolV1",
+            "src": "contracts/PlayoffPoolV1.sol:16"
+          },
+          {
+            "label": "entryFee",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_uint256",
+            "contract": "PlayoffPoolV1",
+            "src": "contracts/PlayoffPoolV1.sol:17"
+          },
+          {
+            "label": "maxEntries",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_uint256",
+            "contract": "PlayoffPoolV1",
+            "src": "contracts/PlayoffPoolV1.sol:18"
+          },
+          {
+            "label": "one",
+            "offset": 0,
+            "slot": "3",
+            "type": "t_uint256",
+            "contract": "PlayoffPoolV1",
+            "src": "contracts/PlayoffPoolV1.sol:19"
+          },
+          {
+            "label": "two",
+            "offset": 0,
+            "slot": "4",
+            "type": "t_uint256",
+            "contract": "PlayoffPoolV1",
+            "src": "contracts/PlayoffPoolV1.sol:20"
+          },
+          {
+            "label": "three",
+            "offset": 0,
+            "slot": "5",
+            "type": "t_uint256",
+            "contract": "PlayoffPoolV1",
+            "src": "contracts/PlayoffPoolV1.sol:21"
+          },
+          {
+            "label": "four",
+            "offset": 0,
+            "slot": "6",
+            "type": "t_uint256",
+            "contract": "PlayoffPoolV1",
+            "src": "contracts/PlayoffPoolV1.sol:22"
+          },
+          {
+            "label": "semifinalOneWinner",
+            "offset": 0,
+            "slot": "7",
+            "type": "t_uint256",
+            "contract": "PlayoffPoolV1",
+            "src": "contracts/PlayoffPoolV1.sol:23"
+          },
+          {
+            "label": "semifinalTwoWinner",
+            "offset": 0,
+            "slot": "8",
+            "type": "t_uint256",
+            "contract": "PlayoffPoolV1",
+            "src": "contracts/PlayoffPoolV1.sol:24"
+          },
+          {
+            "label": "champion",
+            "offset": 0,
+            "slot": "9",
+            "type": "t_uint256",
+            "contract": "PlayoffPoolV1",
+            "src": "contracts/PlayoffPoolV1.sol:25"
+          },
+          {
+            "label": "championshipTotalPoints",
+            "offset": 0,
+            "slot": "10",
+            "type": "t_uint256",
+            "contract": "PlayoffPoolV1",
+            "src": "contracts/PlayoffPoolV1.sol:26"
+          },
+          {
+            "label": "mostPoints",
+            "offset": 0,
+            "slot": "11",
+            "type": "t_uint256",
+            "contract": "PlayoffPoolV1",
+            "src": "contracts/PlayoffPoolV1.sol:27"
+          },
+          {
+            "label": "totalEntries",
+            "offset": 0,
+            "slot": "12",
+            "type": "t_uint256",
+            "contract": "PlayoffPoolV1",
+            "src": "contracts/PlayoffPoolV1.sol:28"
+          },
+          {
+            "label": "pot",
+            "offset": 0,
+            "slot": "13",
+            "type": "t_uint256",
+            "contract": "PlayoffPoolV1",
+            "src": "contracts/PlayoffPoolV1.sol:29"
+          },
+          {
+            "label": "unlockTimestamp",
+            "offset": 0,
+            "slot": "14",
+            "type": "t_uint256",
+            "contract": "PlayoffPoolV1",
+            "src": "contracts/PlayoffPoolV1.sol:30"
+          },
+          {
+            "label": "lockTimestamp",
+            "offset": 0,
+            "slot": "15",
+            "type": "t_uint256",
+            "contract": "PlayoffPoolV1",
+            "src": "contracts/PlayoffPoolV1.sol:31"
+          },
+          {
+            "label": "semisComplete",
+            "offset": 0,
+            "slot": "16",
+            "type": "t_uint256",
+            "contract": "PlayoffPoolV1",
+            "src": "contracts/PlayoffPoolV1.sol:32"
+          },
+          {
+            "label": "champComplete",
+            "offset": 0,
+            "slot": "17",
+            "type": "t_uint256",
+            "contract": "PlayoffPoolV1",
+            "src": "contracts/PlayoffPoolV1.sol:33"
+          },
+          {
+            "label": "allBrackets",
+            "offset": 0,
+            "slot": "18",
+            "type": "t_array(t_struct(Bracket)271_storage)dyn_storage",
+            "contract": "PlayoffPoolV1",
+            "src": "contracts/PlayoffPoolV1.sol:35"
+          },
+          {
+            "label": "scoredAfterSemis",
+            "offset": 0,
+            "slot": "19",
+            "type": "t_array(t_struct(Bracket)271_storage)dyn_storage",
+            "contract": "PlayoffPoolV1",
+            "src": "contracts/PlayoffPoolV1.sol:36"
+          },
+          {
+            "label": "scoredAfterChamp",
+            "offset": 0,
+            "slot": "20",
+            "type": "t_array(t_struct(Bracket)271_storage)dyn_storage",
+            "contract": "PlayoffPoolV1",
+            "src": "contracts/PlayoffPoolV1.sol:37"
+          },
+          {
+            "label": "entrants",
+            "offset": 0,
+            "slot": "21",
+            "type": "t_array(t_address)dyn_storage",
+            "contract": "PlayoffPoolV1",
+            "src": "contracts/PlayoffPoolV1.sol:38"
+          },
+          {
+            "label": "entries",
+            "offset": 0,
+            "slot": "22",
+            "type": "t_mapping(t_address,t_uint256)",
+            "contract": "PlayoffPoolV1",
+            "src": "contracts/PlayoffPoolV1.sol:39"
+          },
+          {
+            "label": "brackets",
+            "offset": 0,
+            "slot": "23",
+            "type": "t_mapping(t_address,t_array(t_struct(Bracket)271_storage)dyn_storage)",
+            "contract": "PlayoffPoolV1",
+            "src": "contracts/PlayoffPoolV1.sol:41"
+          },
+          {
+            "label": "points",
+            "offset": 0,
+            "slot": "24",
+            "type": "t_mapping(t_uint256,t_array(t_address)dyn_storage)",
+            "contract": "PlayoffPoolV1",
+            "src": "contracts/PlayoffPoolV1.sol:43"
+          },
+          {
+            "label": "scoredBrackets",
+            "offset": 0,
+            "slot": "25",
+            "type": "t_mapping(t_uint256,t_array(t_struct(Bracket)271_storage)dyn_storage)",
+            "contract": "PlayoffPoolV1",
+            "src": "contracts/PlayoffPoolV1.sol:45"
+          },
+          {
+            "label": "differences",
+            "offset": 0,
+            "slot": "26",
+            "type": "t_mapping(t_uint256,t_array(t_address)dyn_storage)",
+            "contract": "PlayoffPoolV1",
+            "src": "contracts/PlayoffPoolV1.sol:46"
+          }
+        ],
+        "types": {
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_struct(InitializableStorage)10_storage": {
+            "label": "struct Initializable.InitializableStorage",
+            "members": [
+              {
+                "label": "_initialized",
+                "type": "t_uint64",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "_initializing",
+                "type": "t_bool",
+                "offset": 8,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "32"
+          },
+          "t_uint64": {
+            "label": "uint64",
+            "numberOfBytes": "8"
+          },
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_address)dyn_storage": {
+            "label": "address[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_struct(Bracket)271_storage)dyn_storage": {
+            "label": "struct PlayoffPoolV1.Bracket[]",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_array(t_struct(Bracket)271_storage)dyn_storage)": {
+            "label": "mapping(address => struct PlayoffPoolV1.Bracket[])",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_uint256,t_array(t_address)dyn_storage)": {
+            "label": "mapping(uint256 => address[])",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_uint256,t_array(t_struct(Bracket)271_storage)dyn_storage)": {
+            "label": "mapping(uint256 => struct PlayoffPoolV1.Bracket[])",
+            "numberOfBytes": "32"
+          },
+          "t_struct(Bracket)271_storage": {
+            "label": "struct PlayoffPoolV1.Bracket",
+            "members": [
+              {
+                "label": "owner",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "semifinalOneWinner",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "semifinalTwoWinner",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "champion",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "3"
+              },
+              {
+                "label": "championshipTotalPoints",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "4"
+              },
+              {
+                "label": "bracketPoints",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "5"
+              }
+            ],
+            "numberOfBytes": "192"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        },
+        "namespaces": {
+          "erc7201:openzeppelin.storage.Initializable": [
+            {
+              "contract": "Initializable",
+              "label": "_initialized",
+              "type": "t_uint64",
+              "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:69",
+              "offset": 0,
+              "slot": "0"
+            },
+            {
+              "contract": "Initializable",
+              "label": "_initializing",
+              "type": "t_bool",
+              "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:73",
+              "offset": 8,
+              "slot": "0"
+            }
+          ]
+        }
+      }
+    },
+    "954dcc5ad3cef341ca7de66593acdc8503e50f5f5531fa6a9920ae9df9009fe6": {
+      "address": "0xa768c840B76E07CBCA83346b880e2C1864f2388C",
+      "txHash": "0x983006656b39d112994692d0a8509f96189893eee64c573dbb60e12c20e7bad1",
+      "layout": {
+        "solcVersion": "0.8.20",
+        "storage": [
+          {
+            "label": "commissioner",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_address",
+            "contract": "PlayoffPoolV1",
+            "src": "contracts/PlayoffPoolV1.sol:16"
+          },
+          {
+            "label": "entryFee",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_uint256",
+            "contract": "PlayoffPoolV1",
+            "src": "contracts/PlayoffPoolV1.sol:17"
+          },
+          {
+            "label": "maxEntries",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_uint256",
+            "contract": "PlayoffPoolV1",
+            "src": "contracts/PlayoffPoolV1.sol:18"
+          },
+          {
+            "label": "one",
+            "offset": 0,
+            "slot": "3",
+            "type": "t_uint256",
+            "contract": "PlayoffPoolV1",
+            "src": "contracts/PlayoffPoolV1.sol:19"
+          },
+          {
+            "label": "two",
+            "offset": 0,
+            "slot": "4",
+            "type": "t_uint256",
+            "contract": "PlayoffPoolV1",
+            "src": "contracts/PlayoffPoolV1.sol:20"
+          },
+          {
+            "label": "three",
+            "offset": 0,
+            "slot": "5",
+            "type": "t_uint256",
+            "contract": "PlayoffPoolV1",
+            "src": "contracts/PlayoffPoolV1.sol:21"
+          },
+          {
+            "label": "four",
+            "offset": 0,
+            "slot": "6",
+            "type": "t_uint256",
+            "contract": "PlayoffPoolV1",
+            "src": "contracts/PlayoffPoolV1.sol:22"
+          },
+          {
+            "label": "semifinalOneWinner",
+            "offset": 0,
+            "slot": "7",
+            "type": "t_uint256",
+            "contract": "PlayoffPoolV1",
+            "src": "contracts/PlayoffPoolV1.sol:23"
+          },
+          {
+            "label": "semifinalTwoWinner",
+            "offset": 0,
+            "slot": "8",
+            "type": "t_uint256",
+            "contract": "PlayoffPoolV1",
+            "src": "contracts/PlayoffPoolV1.sol:24"
+          },
+          {
+            "label": "champion",
+            "offset": 0,
+            "slot": "9",
+            "type": "t_uint256",
+            "contract": "PlayoffPoolV1",
+            "src": "contracts/PlayoffPoolV1.sol:25"
+          },
+          {
+            "label": "championshipTotalPoints",
+            "offset": 0,
+            "slot": "10",
+            "type": "t_uint256",
+            "contract": "PlayoffPoolV1",
+            "src": "contracts/PlayoffPoolV1.sol:26"
+          },
+          {
+            "label": "mostPoints",
+            "offset": 0,
+            "slot": "11",
+            "type": "t_uint256",
+            "contract": "PlayoffPoolV1",
+            "src": "contracts/PlayoffPoolV1.sol:27"
+          },
+          {
+            "label": "totalEntries",
+            "offset": 0,
+            "slot": "12",
+            "type": "t_uint256",
+            "contract": "PlayoffPoolV1",
+            "src": "contracts/PlayoffPoolV1.sol:28"
+          },
+          {
+            "label": "pot",
+            "offset": 0,
+            "slot": "13",
+            "type": "t_uint256",
+            "contract": "PlayoffPoolV1",
+            "src": "contracts/PlayoffPoolV1.sol:29"
+          },
+          {
+            "label": "unlockTimestamp",
+            "offset": 0,
+            "slot": "14",
+            "type": "t_uint256",
+            "contract": "PlayoffPoolV1",
+            "src": "contracts/PlayoffPoolV1.sol:30"
+          },
+          {
+            "label": "lockTimestamp",
+            "offset": 0,
+            "slot": "15",
+            "type": "t_uint256",
+            "contract": "PlayoffPoolV1",
+            "src": "contracts/PlayoffPoolV1.sol:31"
+          },
+          {
+            "label": "semisComplete",
+            "offset": 0,
+            "slot": "16",
+            "type": "t_uint256",
+            "contract": "PlayoffPoolV1",
+            "src": "contracts/PlayoffPoolV1.sol:32"
+          },
+          {
+            "label": "champComplete",
+            "offset": 0,
+            "slot": "17",
+            "type": "t_uint256",
+            "contract": "PlayoffPoolV1",
+            "src": "contracts/PlayoffPoolV1.sol:33"
+          },
+          {
+            "label": "allBrackets",
+            "offset": 0,
+            "slot": "18",
+            "type": "t_array(t_struct(Bracket)271_storage)dyn_storage",
+            "contract": "PlayoffPoolV1",
+            "src": "contracts/PlayoffPoolV1.sol:35"
+          },
+          {
+            "label": "scoredAfterSemis",
+            "offset": 0,
+            "slot": "19",
+            "type": "t_array(t_struct(Bracket)271_storage)dyn_storage",
+            "contract": "PlayoffPoolV1",
+            "src": "contracts/PlayoffPoolV1.sol:36"
+          },
+          {
+            "label": "scoredAfterChamp",
+            "offset": 0,
+            "slot": "20",
+            "type": "t_array(t_struct(Bracket)271_storage)dyn_storage",
+            "contract": "PlayoffPoolV1",
+            "src": "contracts/PlayoffPoolV1.sol:37"
+          },
+          {
+            "label": "entrants",
+            "offset": 0,
+            "slot": "21",
+            "type": "t_array(t_address)dyn_storage",
+            "contract": "PlayoffPoolV1",
+            "src": "contracts/PlayoffPoolV1.sol:38"
+          },
+          {
+            "label": "entries",
+            "offset": 0,
+            "slot": "22",
+            "type": "t_mapping(t_address,t_uint256)",
+            "contract": "PlayoffPoolV1",
+            "src": "contracts/PlayoffPoolV1.sol:39"
+          },
+          {
+            "label": "brackets",
+            "offset": 0,
+            "slot": "23",
+            "type": "t_mapping(t_address,t_array(t_struct(Bracket)271_storage)dyn_storage)",
+            "contract": "PlayoffPoolV1",
+            "src": "contracts/PlayoffPoolV1.sol:41"
+          },
+          {
+            "label": "points",
+            "offset": 0,
+            "slot": "24",
+            "type": "t_mapping(t_uint256,t_array(t_address)dyn_storage)",
+            "contract": "PlayoffPoolV1",
+            "src": "contracts/PlayoffPoolV1.sol:43"
+          },
+          {
+            "label": "scoredBrackets",
+            "offset": 0,
+            "slot": "25",
+            "type": "t_mapping(t_uint256,t_array(t_struct(Bracket)271_storage)dyn_storage)",
+            "contract": "PlayoffPoolV1",
+            "src": "contracts/PlayoffPoolV1.sol:45"
+          },
+          {
+            "label": "differences",
+            "offset": 0,
+            "slot": "26",
+            "type": "t_mapping(t_uint256,t_array(t_address)dyn_storage)",
+            "contract": "PlayoffPoolV1",
+            "src": "contracts/PlayoffPoolV1.sol:46"
+          }
+        ],
+        "types": {
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_struct(InitializableStorage)10_storage": {
+            "label": "struct Initializable.InitializableStorage",
+            "members": [
+              {
+                "label": "_initialized",
+                "type": "t_uint64",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "_initializing",
+                "type": "t_bool",
+                "offset": 8,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "32"
+          },
+          "t_uint64": {
+            "label": "uint64",
+            "numberOfBytes": "8"
+          },
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_address)dyn_storage": {
+            "label": "address[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_struct(Bracket)271_storage)dyn_storage": {
+            "label": "struct PlayoffPoolV1.Bracket[]",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_array(t_struct(Bracket)271_storage)dyn_storage)": {
+            "label": "mapping(address => struct PlayoffPoolV1.Bracket[])",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_uint256,t_array(t_address)dyn_storage)": {
+            "label": "mapping(uint256 => address[])",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_uint256,t_array(t_struct(Bracket)271_storage)dyn_storage)": {
+            "label": "mapping(uint256 => struct PlayoffPoolV1.Bracket[])",
+            "numberOfBytes": "32"
+          },
+          "t_struct(Bracket)271_storage": {
+            "label": "struct PlayoffPoolV1.Bracket",
+            "members": [
+              {
+                "label": "owner",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "semifinalOneWinner",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "semifinalTwoWinner",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "champion",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "3"
+              },
+              {
+                "label": "championshipTotalPoints",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "4"
+              },
+              {
+                "label": "bracketPoints",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "5"
+              }
+            ],
+            "numberOfBytes": "192"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        },
+        "namespaces": {
+          "erc7201:openzeppelin.storage.Initializable": [
+            {
+              "contract": "Initializable",
+              "label": "_initialized",
+              "type": "t_uint64",
+              "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:69",
+              "offset": 0,
+              "slot": "0"
+            },
+            {
+              "contract": "Initializable",
+              "label": "_initializing",
+              "type": "t_bool",
+              "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:73",
+              "offset": 8,
+              "slot": "0"
+            }
+          ]
+        }
+      }
+    },
+    "5c320b60cbafa5110046c0afd2de0701bd58b750311e29cc944f1c67b4b73a5c": {
+      "address": "0xcD6A572e0AB944aA46B56EC1c545B18Fd56b3e07",
+      "txHash": "0xf230a7bebdba978fcd6517b6bfe751ad6d40015b67bbcd4d1bf2367a02e3a413",
+      "layout": {
+        "solcVersion": "0.8.20",
+        "storage": [
+          {
+            "label": "commissioner",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_address",
+            "contract": "PlayoffPoolV1",
+            "src": "contracts/PlayoffPoolV1.sol:16"
+          },
+          {
+            "label": "entryFee",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_uint256",
+            "contract": "PlayoffPoolV1",
+            "src": "contracts/PlayoffPoolV1.sol:17"
+          },
+          {
+            "label": "maxEntries",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_uint256",
+            "contract": "PlayoffPoolV1",
+            "src": "contracts/PlayoffPoolV1.sol:18"
+          },
+          {
+            "label": "one",
+            "offset": 0,
+            "slot": "3",
+            "type": "t_uint256",
+            "contract": "PlayoffPoolV1",
+            "src": "contracts/PlayoffPoolV1.sol:19"
+          },
+          {
+            "label": "two",
+            "offset": 0,
+            "slot": "4",
+            "type": "t_uint256",
+            "contract": "PlayoffPoolV1",
+            "src": "contracts/PlayoffPoolV1.sol:20"
+          },
+          {
+            "label": "three",
+            "offset": 0,
+            "slot": "5",
+            "type": "t_uint256",
+            "contract": "PlayoffPoolV1",
+            "src": "contracts/PlayoffPoolV1.sol:21"
+          },
+          {
+            "label": "four",
+            "offset": 0,
+            "slot": "6",
+            "type": "t_uint256",
+            "contract": "PlayoffPoolV1",
+            "src": "contracts/PlayoffPoolV1.sol:22"
+          },
+          {
+            "label": "semifinalOneWinner",
+            "offset": 0,
+            "slot": "7",
+            "type": "t_uint256",
+            "contract": "PlayoffPoolV1",
+            "src": "contracts/PlayoffPoolV1.sol:23"
+          },
+          {
+            "label": "semifinalTwoWinner",
+            "offset": 0,
+            "slot": "8",
+            "type": "t_uint256",
+            "contract": "PlayoffPoolV1",
+            "src": "contracts/PlayoffPoolV1.sol:24"
+          },
+          {
+            "label": "champion",
+            "offset": 0,
+            "slot": "9",
+            "type": "t_uint256",
+            "contract": "PlayoffPoolV1",
+            "src": "contracts/PlayoffPoolV1.sol:25"
+          },
+          {
+            "label": "championshipTotalPoints",
+            "offset": 0,
+            "slot": "10",
+            "type": "t_uint256",
+            "contract": "PlayoffPoolV1",
+            "src": "contracts/PlayoffPoolV1.sol:26"
+          },
+          {
+            "label": "mostPoints",
+            "offset": 0,
+            "slot": "11",
+            "type": "t_uint256",
+            "contract": "PlayoffPoolV1",
+            "src": "contracts/PlayoffPoolV1.sol:27"
+          },
+          {
+            "label": "totalEntries",
+            "offset": 0,
+            "slot": "12",
+            "type": "t_uint256",
+            "contract": "PlayoffPoolV1",
+            "src": "contracts/PlayoffPoolV1.sol:28"
+          },
+          {
+            "label": "pot",
+            "offset": 0,
+            "slot": "13",
+            "type": "t_uint256",
+            "contract": "PlayoffPoolV1",
+            "src": "contracts/PlayoffPoolV1.sol:29"
+          },
+          {
+            "label": "unlockTimestamp",
+            "offset": 0,
+            "slot": "14",
+            "type": "t_uint256",
+            "contract": "PlayoffPoolV1",
+            "src": "contracts/PlayoffPoolV1.sol:30"
+          },
+          {
+            "label": "lockTimestamp",
+            "offset": 0,
+            "slot": "15",
+            "type": "t_uint256",
+            "contract": "PlayoffPoolV1",
+            "src": "contracts/PlayoffPoolV1.sol:31"
+          },
+          {
+            "label": "semisComplete",
+            "offset": 0,
+            "slot": "16",
+            "type": "t_uint256",
+            "contract": "PlayoffPoolV1",
+            "src": "contracts/PlayoffPoolV1.sol:32"
+          },
+          {
+            "label": "champComplete",
+            "offset": 0,
+            "slot": "17",
+            "type": "t_uint256",
+            "contract": "PlayoffPoolV1",
+            "src": "contracts/PlayoffPoolV1.sol:33"
+          },
+          {
+            "label": "allBrackets",
+            "offset": 0,
+            "slot": "18",
+            "type": "t_array(t_struct(Bracket)1649_storage)dyn_storage",
+            "contract": "PlayoffPoolV1",
+            "src": "contracts/PlayoffPoolV1.sol:35"
+          },
+          {
+            "label": "scoredAfterSemis",
+            "offset": 0,
+            "slot": "19",
+            "type": "t_array(t_struct(Bracket)1649_storage)dyn_storage",
+            "contract": "PlayoffPoolV1",
+            "src": "contracts/PlayoffPoolV1.sol:36"
+          },
+          {
+            "label": "scoredAfterChamp",
+            "offset": 0,
+            "slot": "20",
+            "type": "t_array(t_struct(Bracket)1649_storage)dyn_storage",
+            "contract": "PlayoffPoolV1",
+            "src": "contracts/PlayoffPoolV1.sol:37"
+          },
+          {
+            "label": "entrants",
+            "offset": 0,
+            "slot": "21",
+            "type": "t_array(t_address)dyn_storage",
+            "contract": "PlayoffPoolV1",
+            "src": "contracts/PlayoffPoolV1.sol:38"
+          },
+          {
+            "label": "entries",
+            "offset": 0,
+            "slot": "22",
+            "type": "t_mapping(t_address,t_uint256)",
+            "contract": "PlayoffPoolV1",
+            "src": "contracts/PlayoffPoolV1.sol:39"
+          },
+          {
+            "label": "brackets",
+            "offset": 0,
+            "slot": "23",
+            "type": "t_mapping(t_address,t_array(t_struct(Bracket)1649_storage)dyn_storage)",
+            "contract": "PlayoffPoolV1",
+            "src": "contracts/PlayoffPoolV1.sol:41"
+          },
+          {
+            "label": "points",
+            "offset": 0,
+            "slot": "24",
+            "type": "t_mapping(t_uint256,t_array(t_address)dyn_storage)",
+            "contract": "PlayoffPoolV1",
+            "src": "contracts/PlayoffPoolV1.sol:43"
+          },
+          {
+            "label": "scoredBrackets",
+            "offset": 0,
+            "slot": "25",
+            "type": "t_mapping(t_uint256,t_array(t_struct(Bracket)1649_storage)dyn_storage)",
+            "contract": "PlayoffPoolV1",
+            "src": "contracts/PlayoffPoolV1.sol:45"
+          },
+          {
+            "label": "differences",
+            "offset": 0,
+            "slot": "26",
+            "type": "t_mapping(t_uint256,t_array(t_address)dyn_storage)",
+            "contract": "PlayoffPoolV1",
+            "src": "contracts/PlayoffPoolV1.sol:46"
+          }
+        ],
+        "types": {
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_struct(InitializableStorage)10_storage": {
+            "label": "struct Initializable.InitializableStorage",
+            "members": [
+              {
+                "label": "_initialized",
+                "type": "t_uint64",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "_initializing",
+                "type": "t_bool",
+                "offset": 8,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "32"
+          },
+          "t_uint64": {
+            "label": "uint64",
+            "numberOfBytes": "8"
+          },
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_address)dyn_storage": {
+            "label": "address[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_struct(Bracket)1649_storage)dyn_storage": {
+            "label": "struct PlayoffPoolV1.Bracket[]",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_array(t_struct(Bracket)1649_storage)dyn_storage)": {
+            "label": "mapping(address => struct PlayoffPoolV1.Bracket[])",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_uint256,t_array(t_address)dyn_storage)": {
+            "label": "mapping(uint256 => address[])",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_uint256,t_array(t_struct(Bracket)1649_storage)dyn_storage)": {
+            "label": "mapping(uint256 => struct PlayoffPoolV1.Bracket[])",
+            "numberOfBytes": "32"
+          },
+          "t_struct(Bracket)1649_storage": {
+            "label": "struct PlayoffPoolV1.Bracket",
+            "members": [
+              {
+                "label": "owner",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "semifinalOneWinner",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "semifinalTwoWinner",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "champion",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "3"
+              },
+              {
+                "label": "championshipTotalPoints",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "4"
+              },
+              {
+                "label": "bracketPoints",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "5"
+              }
+            ],
+            "numberOfBytes": "192"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        },
+        "namespaces": {
+          "erc7201:openzeppelin.storage.Initializable": [
+            {
+              "contract": "Initializable",
+              "label": "_initialized",
+              "type": "t_uint64",
+              "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:69",
+              "offset": 0,
+              "slot": "0"
+            },
+            {
+              "contract": "Initializable",
+              "label": "_initializing",
+              "type": "t_bool",
+              "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:73",
+              "offset": 8,
+              "slot": "0"
+            }
+          ]
+        }
+      }
+    },
+    "fbf820383f68ff4ffd0f25dde35698c61bf5ec71c9b2eff409bcb96f1cd635c6": {
+      "address": "0x056e7Bf6548a410D061F6fE4B3aDd6d1C147d907",
+      "txHash": "0xed5b72173d661f3e4364634fd27888439724fd1b7a134640b313eb50cf575391",
+      "layout": {
+        "solcVersion": "0.8.20",
+        "storage": [
+          {
+            "label": "commissioner",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_address",
+            "contract": "PlayoffPoolV2",
+            "src": "contracts/PlayoffPoolV2.sol:16"
+          },
+          {
+            "label": "entryFee",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_uint256",
+            "contract": "PlayoffPoolV2",
+            "src": "contracts/PlayoffPoolV2.sol:17"
+          },
+          {
+            "label": "maxEntries",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_uint256",
+            "contract": "PlayoffPoolV2",
+            "src": "contracts/PlayoffPoolV2.sol:18"
+          },
+          {
+            "label": "one",
+            "offset": 0,
+            "slot": "3",
+            "type": "t_uint256",
+            "contract": "PlayoffPoolV2",
+            "src": "contracts/PlayoffPoolV2.sol:19"
+          },
+          {
+            "label": "two",
+            "offset": 0,
+            "slot": "4",
+            "type": "t_uint256",
+            "contract": "PlayoffPoolV2",
+            "src": "contracts/PlayoffPoolV2.sol:20"
+          },
+          {
+            "label": "three",
+            "offset": 0,
+            "slot": "5",
+            "type": "t_uint256",
+            "contract": "PlayoffPoolV2",
+            "src": "contracts/PlayoffPoolV2.sol:21"
+          },
+          {
+            "label": "four",
+            "offset": 0,
+            "slot": "6",
+            "type": "t_uint256",
+            "contract": "PlayoffPoolV2",
+            "src": "contracts/PlayoffPoolV2.sol:22"
+          },
+          {
+            "label": "semifinalOneWinner",
+            "offset": 0,
+            "slot": "7",
+            "type": "t_uint256",
+            "contract": "PlayoffPoolV2",
+            "src": "contracts/PlayoffPoolV2.sol:23"
+          },
+          {
+            "label": "semifinalTwoWinner",
+            "offset": 0,
+            "slot": "8",
+            "type": "t_uint256",
+            "contract": "PlayoffPoolV2",
+            "src": "contracts/PlayoffPoolV2.sol:24"
+          },
+          {
+            "label": "champion",
+            "offset": 0,
+            "slot": "9",
+            "type": "t_uint256",
+            "contract": "PlayoffPoolV2",
+            "src": "contracts/PlayoffPoolV2.sol:25"
+          },
+          {
+            "label": "championshipTotalPoints",
+            "offset": 0,
+            "slot": "10",
+            "type": "t_uint256",
+            "contract": "PlayoffPoolV2",
+            "src": "contracts/PlayoffPoolV2.sol:26"
+          },
+          {
+            "label": "mostPoints",
+            "offset": 0,
+            "slot": "11",
+            "type": "t_uint256",
+            "contract": "PlayoffPoolV2",
+            "src": "contracts/PlayoffPoolV2.sol:27"
+          },
+          {
+            "label": "totalEntries",
+            "offset": 0,
+            "slot": "12",
+            "type": "t_uint256",
+            "contract": "PlayoffPoolV2",
+            "src": "contracts/PlayoffPoolV2.sol:28"
+          },
+          {
+            "label": "pot",
+            "offset": 0,
+            "slot": "13",
+            "type": "t_uint256",
+            "contract": "PlayoffPoolV2",
+            "src": "contracts/PlayoffPoolV2.sol:29"
+          },
+          {
+            "label": "unlockTimestamp",
+            "offset": 0,
+            "slot": "14",
+            "type": "t_uint256",
+            "contract": "PlayoffPoolV2",
+            "src": "contracts/PlayoffPoolV2.sol:30"
+          },
+          {
+            "label": "lockTimestamp",
+            "offset": 0,
+            "slot": "15",
+            "type": "t_uint256",
+            "contract": "PlayoffPoolV2",
+            "src": "contracts/PlayoffPoolV2.sol:31"
+          },
+          {
+            "label": "semisComplete",
+            "offset": 0,
+            "slot": "16",
+            "type": "t_uint256",
+            "contract": "PlayoffPoolV2",
+            "src": "contracts/PlayoffPoolV2.sol:32"
+          },
+          {
+            "label": "champComplete",
+            "offset": 0,
+            "slot": "17",
+            "type": "t_uint256",
+            "contract": "PlayoffPoolV2",
+            "src": "contracts/PlayoffPoolV2.sol:33"
+          },
+          {
+            "label": "allBrackets",
+            "offset": 0,
+            "slot": "18",
+            "type": "t_array(t_struct(Bracket)271_storage)dyn_storage",
+            "contract": "PlayoffPoolV2",
+            "src": "contracts/PlayoffPoolV2.sol:35"
+          },
+          {
+            "label": "scoredAfterSemis",
+            "offset": 0,
+            "slot": "19",
+            "type": "t_array(t_struct(Bracket)271_storage)dyn_storage",
+            "contract": "PlayoffPoolV2",
+            "src": "contracts/PlayoffPoolV2.sol:36"
+          },
+          {
+            "label": "scoredAfterChamp",
+            "offset": 0,
+            "slot": "20",
+            "type": "t_array(t_struct(Bracket)271_storage)dyn_storage",
+            "contract": "PlayoffPoolV2",
+            "src": "contracts/PlayoffPoolV2.sol:37"
+          },
+          {
+            "label": "entrants",
+            "offset": 0,
+            "slot": "21",
+            "type": "t_array(t_address)dyn_storage",
+            "contract": "PlayoffPoolV2",
+            "src": "contracts/PlayoffPoolV2.sol:38"
+          },
+          {
+            "label": "entries",
+            "offset": 0,
+            "slot": "22",
+            "type": "t_mapping(t_address,t_uint256)",
+            "contract": "PlayoffPoolV2",
+            "src": "contracts/PlayoffPoolV2.sol:39"
+          },
+          {
+            "label": "brackets",
+            "offset": 0,
+            "slot": "23",
+            "type": "t_mapping(t_address,t_array(t_struct(Bracket)271_storage)dyn_storage)",
+            "contract": "PlayoffPoolV2",
+            "src": "contracts/PlayoffPoolV2.sol:41"
+          },
+          {
+            "label": "points",
+            "offset": 0,
+            "slot": "24",
+            "type": "t_mapping(t_uint256,t_array(t_address)dyn_storage)",
+            "contract": "PlayoffPoolV2",
+            "src": "contracts/PlayoffPoolV2.sol:43"
+          },
+          {
+            "label": "scoredBrackets",
+            "offset": 0,
+            "slot": "25",
+            "type": "t_mapping(t_uint256,t_array(t_struct(Bracket)271_storage)dyn_storage)",
+            "contract": "PlayoffPoolV2",
+            "src": "contracts/PlayoffPoolV2.sol:45"
+          },
+          {
+            "label": "differences",
+            "offset": 0,
+            "slot": "26",
+            "type": "t_mapping(t_uint256,t_array(t_address)dyn_storage)",
+            "contract": "PlayoffPoolV2",
+            "src": "contracts/PlayoffPoolV2.sol:46"
+          }
+        ],
+        "types": {
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_struct(InitializableStorage)10_storage": {
+            "label": "struct Initializable.InitializableStorage",
+            "members": [
+              {
+                "label": "_initialized",
+                "type": "t_uint64",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "_initializing",
+                "type": "t_bool",
+                "offset": 8,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "32"
+          },
+          "t_uint64": {
+            "label": "uint64",
+            "numberOfBytes": "8"
+          },
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_address)dyn_storage": {
+            "label": "address[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_struct(Bracket)271_storage)dyn_storage": {
+            "label": "struct PlayoffPoolV2.Bracket[]",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_array(t_struct(Bracket)271_storage)dyn_storage)": {
+            "label": "mapping(address => struct PlayoffPoolV2.Bracket[])",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_uint256,t_array(t_address)dyn_storage)": {
+            "label": "mapping(uint256 => address[])",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_uint256,t_array(t_struct(Bracket)271_storage)dyn_storage)": {
+            "label": "mapping(uint256 => struct PlayoffPoolV2.Bracket[])",
+            "numberOfBytes": "32"
+          },
+          "t_struct(Bracket)271_storage": {
+            "label": "struct PlayoffPoolV2.Bracket",
+            "members": [
+              {
+                "label": "owner",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "semifinalOneWinner",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "semifinalTwoWinner",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "champion",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "3"
+              },
+              {
+                "label": "championshipTotalPoints",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "4"
+              },
+              {
+                "label": "bracketPoints",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "5"
+              }
+            ],
+            "numberOfBytes": "192"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        },
+        "namespaces": {
+          "erc7201:openzeppelin.storage.Initializable": [
+            {
+              "contract": "Initializable",
+              "label": "_initialized",
+              "type": "t_uint64",
+              "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:69",
+              "offset": 0,
+              "slot": "0"
+            },
+            {
+              "contract": "Initializable",
+              "label": "_initializing",
+              "type": "t_bool",
+              "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:73",
+              "offset": 8,
+              "slot": "0"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

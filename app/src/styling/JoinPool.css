@@ -1,0 +1,114 @@
+.connectWalletDiv {
+
+}
+
+.connectWalletButtonDiv {
+
+}
+
+.connectWalletButton {
+    
+}
+
+.homeJoinContainer {
+    grid-template-rows: 1fr 5fr;
+    grid-template-areas: 
+    "input"
+    "buttonsContainer";
+  }
+
+/* .poolSpecifics, .entrantSelectionsContainer {
+    grid-area: poolSpecifics;
+    display: grid;
+    grid-template-rows: 1fr 5fr;
+    align-items: center;
+    align-content: space-evenly;
+} */
+
+.entrantSelectionContainer {
+    grid-area: entrantSelectionContainer;
+}
+
+.entrantSelectionsDiv, .entrantSelectionsDivWithButton .poolSelectionsDiv {
+    display: grid;
+    /* grid-template-rows: 4fr 1fr; */
+    width: 96%;
+    height: 100%;
+    align-items: center;
+    /* align-content: space-evenly; */
+    justify-self: center;
+}
+
+/* .entrantSelectionsSpacing {
+    display: grid;
+    align-self: baseline;
+    row-gap: 1rem;
+} */
+
+.poolCategoryDiv, .entrantCategoryDiv, .selectionsCategoryDiv {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-areas: "label value";
+}
+
+.poolLabel, .entrantLabel {
+    grid-area: label;
+    align-self: end;
+    text-align: end;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.poolValue, .entrantValue {
+    grid-area: value;
+    text-align: left;
+    align-self: center;
+    height: 100%
+}
+
+.inputValueDiv {
+    display: grid;
+    text-align: left;
+    height: 100%;
+}
+
+.inputValueAlign {
+    justify-content: start;
+}
+
+.inputValue {
+    align-self: center;
+    padding: 0;
+    font-size: large;
+}
+
+.selectedValue {
+    align-self: center;
+    width: 100%;
+}
+
+.entrantTeamImgContainer {
+    display: grid;
+    grid-template-columns: 10% 80%;
+    grid-template-areas: "teamImg teamName";
+    align-items: center;
+    height: 100%
+}
+
+.entrantFinalScore {
+    display: grid;
+    align-self: center;
+    height: 100%
+}
+
+.entrantTeamImg {
+    grid-area: teamImg;
+    display: grid;
+    height: 24px;
+}
+
+.entrantTeamName {
+    grid-area: teamName;
+    display: grid;
+    align-self: center;
+}
